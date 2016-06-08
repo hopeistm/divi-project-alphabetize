@@ -11,7 +11,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: divi-project-alphabetize
 */
 
-add_action('init', alphabetize);
+add_action('init', 'alphabetize');
 
 function alphabetize(){
 
